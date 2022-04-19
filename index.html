@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/d1eead6f39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="selectBox">
+        <header>Tic Tac Toe</header>
+        <div class="content">
+            <div class="title">Select which you want to be?</div>
+            <div class="options">
+                <button class="playerX">Player (X)</button>
+                <button class="playerO">Player (O)</button>
+            </div>
+        </div>
+    </div>
+    <!--fa-solid fa-xmark, fa-regular fa-circle-->
+    <div class="playBoard">
+        <div class="details">
+            <div class="players">
+                <span class="xTurn">X's Turn</span>
+                <span class="oTurn">O's Turn</span>
+                <div class="slider"></div>
+            </div>
+        </div>
+        <div class="playArea">
+            <section>
+                <span class="box1"></span>
+                <span class="box2"></span>
+                <span class="box3"></span>
+            </section>
+            <section>
+                <span class="box4"></span>
+                <span class="box5"></span>
+                <span class="box6"></span>
+            </section>
+            <section>
+                <span class="box7"></span>
+                <span class="box8"></span>
+                <span class="box9"></span>
+            </section>
+        </div>
+    </div>
+    <div class="resultBox">
+        <div class="wonText"></div>
+        <div class="btn">
+            <button>Replay</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
